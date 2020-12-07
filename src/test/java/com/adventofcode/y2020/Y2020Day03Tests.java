@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import static com.adventofcode.y2020.Y2020ApplicationDay03.getNumTrees;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -41,13 +42,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Y2020Day03Tests {
 
-    private static final int XVALUE = 0;
-    private static final int YVALUE = 1;
-    private static final String TREE = "#";
-    private static final String OPEN = ".";
-    final int SUM2020 = 2020;
     final String filename = "src/test/resources/trees.txt";
-    final ArrayList<String> result = new ArrayList<>();
+
 
     //    @Disabled
     @Test
@@ -115,9 +111,9 @@ public class Y2020Day03Tests {
 
         numTrees1 = getNumTrees(slope1, result, limit, currentPos);
         numTrees2 = getNumTrees(slope2, result, limit, currentPos);
-        numTrees3 = getNumTrees(slope3, result, limit, currentPos);
-        numTrees4 = getNumTrees(slope4, result, limit, currentPos);
-        numTrees5 = getNumTrees(slope5, result, limit, currentPos);
+//        numTrees3 = getNumTrees(slope3, result, limit, currentPos);
+//        numTrees4 = getNumTrees(slope4, result, limit, currentPos);
+//        numTrees5 = getNumTrees(slope5, result, limit, currentPos);
 
 //        currentPos = new Pair<>(0, 0);
 //        while(positionWithinLimits(currentPos, limit)) {
@@ -171,53 +167,6 @@ public class Y2020Day03Tests {
 //        s = getTreeOrOpen(getNewPosition(currentPos, slope), result);
 //        assertThat(s).isEqualTo(OPEN);
 
-    }
-
-    private int getNumTrees(Pair<Integer, Integer> slope1, ArrayList<String> result, Pair<Integer, Integer> limit,
-                            Pair<Integer, Integer> currentPos) {
-        int numTrees = 0;
-        String isItaTree;
-        while (positionWithinLimits(currentPos, limit)) {
-            isItaTree = getTreeOrOpen(currentPos, result);
-            if (isItaTree.equalsIgnoreCase(TREE)) {
-                System.out.println("TREE");
-                numTrees++;
-            }
-//            Pair<Integer, Integer> nextPosition = getNewPosition(currentPos, slope);
-//            currentPos = nextPosition;
-            currentPos = getNewPosition(currentPos, slope1);
-        }
-        return numTrees;
-    }
-
-    private boolean positionWithinLimits(Pair<Integer, Integer> currentPos, Pair<Integer, Integer> limit) {
-        Integer curX = (Integer) currentPos.getValue(XVALUE);
-        Integer curY = (Integer) currentPos.getValue(YVALUE);
-        Integer limitX = (Integer) limit.getValue(XVALUE);
-        Integer limitY = (Integer) limit.getValue(YVALUE);
-
-        if (curX < limitX && curY < limitY) return true;
-        return false;
-    }
-
-    private Pair<Integer, Integer> getNewPosition(Pair<Integer, Integer> currentPos, Pair<Integer, Integer> slope) {
-        Integer curX = (Integer) currentPos.getValue(XVALUE);
-        Integer curY = (Integer) currentPos.getValue(YVALUE);
-        Integer slopeX = (Integer) slope.getValue(XVALUE);
-        Integer slopeY = (Integer) slope.getValue(YVALUE);
-        Pair<Integer, Integer> newPosition = new Pair<>(curX + slopeX, curY + slopeY);
-        return newPosition;
-    }
-
-    private String getTreeOrOpen(Pair<Integer, Integer> currentPos, ArrayList<String> result) {
-        Integer x = (Integer) currentPos.getValue(XVALUE);
-        Integer y = (Integer) currentPos.getValue(YVALUE);
-//        assertThat(x).isEqualTo(0);
-//        assertThat(y).isEqualTo(0);
-        System.out.println(y + " " + x);
-        System.out.println(result.get(y));
-        System.out.println(result.get(y).substring(x, x + 1));
-        return result.get(y).substring(x, x + 1);
     }
 
     private boolean isValid(String policy, String pw) {
@@ -396,36 +345,6 @@ public class Y2020Day03Tests {
         }
     }
 
-    @Disabled
-    @Test
-    public void givenFilePath_streamFileData2() {
-        List<Integer> numbs = null;
-        try {
-            numbs = Files.lines(Paths.get(filename))
-                    .map(line -> line.split("\\s+")).flatMap(Arrays::stream)
-                    .map(Integer::valueOf)
-                    .collect(Collectors.toList());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        ArrayList<Integer> numbers = new ArrayList<>(numbs);
-        assert (numbers.size() == 200);
-        assert (numbers.get(numbers.size() - 1) == 1602);
-
-        for (Integer item : numbers) {
-            Integer i = Integer.valueOf(item);
-            for (Integer item2j : numbers) {
-                Integer j = Integer.valueOf(item2j);
-                for (Integer k : numbers) {
-                    if (i + j + k == SUM2020) {
-                        System.out.println("********" + i + " : " + j + " : " + k);
-                        System.out.println("********" + i * j * k);
-                    }
-                }
-            }
-        }
-
-    }
 
     @Test
     void testTheirData() {
