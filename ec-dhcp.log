@@ -1,16 +1,329 @@
-195  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-187  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-278  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-152  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-148  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-162  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-245  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-158  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-129  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-163  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-139  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-150  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-290  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-125  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-232  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
-147  [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+155  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+287  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+501  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+507  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 97973 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+508  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+537  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+537  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+537  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+1029 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1038 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+1299 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1395 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1482 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1499 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1515 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.223 seconds (JVM running for 1.868)
+1516 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1517 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1518 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1567 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2924 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2941 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+3156 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+3157 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+3159 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+231  [main] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+239  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+631  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+649  [main] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 97985 (started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+650  [main] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+1143 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1151 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+1443 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1564 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1653 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1685 [main] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.368 seconds (JVM running for 2.129)
+1687 [main] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1688 [main] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1689 [main] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1689 [main] INFO  c.a.y2020.Y2020ApplicationDay03 - args[0]: value
+1759 [main] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+3220 [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+3242 [main] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+3722 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+3726 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+140  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+266  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+461  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+469  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 97991 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+470  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+494  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+494  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+494  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+833  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+845  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+1081 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1133 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1193 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1207 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1223 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 0.944 seconds (JVM running for 1.43)
+1224 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1225 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1226 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1277 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2602 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2619 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+2834 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2835 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2837 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+155  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+266  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+444  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+448  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98004 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+449  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+471  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+471  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+471  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+773  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+786  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+1012 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1074 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1142 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1158 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1173 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 0.901 seconds (JVM running for 1.399)
+1174 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1175 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1176 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1227 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2565 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2579 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+2794 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2795 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2798 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+152  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+8975 [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+9188 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+9193 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98008 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+9194 [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+9220 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+9220 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+9221 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+9607 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+9613 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+9857 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+9914 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+9989 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+10006 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+10022 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.039 seconds (JVM running for 10.472)
+10023 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+10024 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+10025 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+10073 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+11666 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+11691 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+11910 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+11910 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11913 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+176  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+3889 [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+4085 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+4091 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98013 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+4091 [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+4116 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+4116 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+4117 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+4479 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+4486 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+4711 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+4781 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+4849 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+4864 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+4879 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 0.983 seconds (JVM running for 5.206)
+4881 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+4882 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+4883 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+4941 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+6554 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+6569 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+6788 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+6788 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+6791 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+161  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+39210 [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+39415 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+39419 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98019 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+39420 [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+39446 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+39446 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+39446 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+39838 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+39845 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+40085 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+40144 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+40221 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+40242 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+40259 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.041 seconds (JVM running for 40.571)
+40260 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+40261 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+40263 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+40311 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+41979 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+41998 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+42217 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+42218 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+42222 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+158  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+270  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+454  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+457  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98069 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+458  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+483  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+483  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+484  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+877  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+884  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+1121 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1199 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1277 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1293 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1307 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.031 seconds (JVM running for 1.523)
+1309 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1309 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1310 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1366 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2731 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2751 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+2968 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2968 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2972 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+154  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+256  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+437  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+442  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98083 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+442  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+464  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+465  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+465  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+747  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+760  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+984  [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1043 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1101 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1114 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1129 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 0.865 seconds (JVM running for 1.358)
+1130 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1131 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1132 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1182 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2500 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2515 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+2727 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2728 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2733 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+135  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+245  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+439  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+443  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98095 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+444  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+469  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+469  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+469  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+840  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+847  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+1102 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1156 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1213 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1226 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1241 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 0.988 seconds (JVM running for 1.447)
+1242 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1242 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1244 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1294 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2631 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2646 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+2860 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2860 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2864 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+138  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+253  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+438  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+444  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98112 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+445  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+468  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+469  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+469  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+786  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+801  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+1037 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1092 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1153 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1168 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1189 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 0.929 seconds (JVM running for 1.396)
+1191 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1191 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1192 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1243 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2558 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2572 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+2785 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2786 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2789 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+165  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+272  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+465  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+470  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98116 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+470  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+497  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+497  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+497  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+918  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+925  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+1174 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1235 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1294 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1308 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1332 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.054 seconds (JVM running for 1.691)
+1333 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1334 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1335 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1384 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+102503 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m41s168ms).
+102791 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+102791 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+102838 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+134  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+236  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+419  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+423  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98141 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+424  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+445  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+446  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+446  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+731  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+743  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JDBC repository interfaces.
+965  [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1024 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1081 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1096 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1111 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 0.869 seconds (JVM running for 1.335)
+1113 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1113 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1115 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1165 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+2488 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+2502 [restartedMain] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+2718 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2718 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2722 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+160  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+275  [restartedMain] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+469  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+475  [restartedMain] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 98145 (/Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode/target/classes started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+476  [restartedMain] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+502  [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/jcc-11.5.4.0.jar referenced one or more files that do not exist: file:/Users/garyhellman/.m2/repository/com/ibm/db2/jcc/11.5.4.0/pdq.jar
+502  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+502  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+913  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+921  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+1164 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1220 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1287 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1301 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+1317 [restartedMain] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.035 seconds (JVM running for 1.58)
+1318 [restartedMain] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1319 [restartedMain] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1320 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1367 [restartedMain] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+16616 [SpringContextShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+16616 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16619 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

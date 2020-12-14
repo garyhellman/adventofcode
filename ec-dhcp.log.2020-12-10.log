@@ -1,0 +1,20 @@
+153  [main] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+173  [main] INFO  com.adventofcode.y2020.Day07 - STARTING THE APPLICATION
+599  [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.13.Final
+624  [main] INFO  com.adventofcode.y2020.Day07 - Starting Day07 using Java 13.0.2 on Garys-iMac.hsd1.md.comcast.net with PID 66753 (started by garyhellman in /Volumes/TerrOne/Users/garyhellman/development/javastuff/adventofcode)
+625  [main] INFO  com.adventofcode.y2020.Day07 - No active profile set, falling back to default profiles: default
+1127 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+1136 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+1424 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+1576 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+1673 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+1693 [main] INFO  com.adventofcode.y2020.Day07 - Started Day07 in 1.427 seconds (JVM running for 2.115)
+1695 [main] INFO  com.adventofcode.y2020.Day07 - EXECUTING : command line runner
+1696 [main] INFO  com.adventofcode.y2020.Day06 - EXECUTING : command line runner
+1697 [main] INFO  c.a.y2020.Y2020ApplicationDay03 - EXECUTING : command line runner
+1697 [main] INFO  c.a.y2020.Y2020ApplicationDay03 - args[0]: value
+1762 [main] INFO  c.a.y2020.Y2020ApplicationDay04 - EXECUTING : command line runner
+3253 [main] INFO  c.a.y2020.Y2020ApplicationDay05 - EXECUTING : command line runner
+3274 [main] INFO  com.adventofcode.y2020.Day07 - APPLICATION FINISHED
+3660 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+3663 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

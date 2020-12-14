@@ -88,7 +88,7 @@ public class Y2020ApplicationDay04 implements CommandLineRunner {
 
   public static void main(String[] args) {
     LOG.info("STARTING THE APPLICATION");
-    SpringApplication.run(Y2020ApplicationDay03.class, args);
+    SpringApplication.run(Y2020ApplicationDay04.class, args);
     LOG.info("APPLICATION FINISHED");
   }
 

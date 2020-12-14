@@ -18,15 +18,15 @@ class Y2020ApplicationDay05Test {
     y2020ApplicationDay05UnderTest = new Y2020ApplicationDay05();
   }
 
-  @Test
-  void testRun() {
-    // Setup
-
-    // Run the test
-    y2020ApplicationDay05UnderTest.run("args");
-
-    // Verify the results
-  }
+//  @Test
+//  void testRun() {
+//    // Setup
+//
+//    // Run the test
+//    y2020ApplicationDay05UnderTest.run("args");
+//
+//    // Verify the results
+//  }
 
   @Test
   void testGetAll() {
@@ -194,15 +194,15 @@ class Y2020ApplicationDay05Test {
 
   }
 
-  @Test
-  void testMain() {
-    // Setup
-
-    // Run the test
-    Y2020ApplicationDay05.main(new String[] {"value"});
-
-    // Verify the results
-  }
+//  @Test
+//  void testMain() {
+//    // Setup
+//
+//    // Run the test
+//    Y2020ApplicationDay05.main(new String[] {"value"});
+//
+//    // Verify the results
+//  }
 
 
 }
